@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-23T06:40:18.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51" etag="mPNySqxFS9dAdvrzyaf3" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-23T07:09:40.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51" etag="RgL3C8GyfTYsH5DF8Mfl" version="13.7.3" type="github">
   <diagram id="2dntFaKOUKjyEubpullR" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,6 +128,9 @@
         </mxCell>
         <mxCell id="Z0Rlydu4usAbJfZPVuNz-21" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgba(255, 255, 255, 0.01); display: inline; float: none;&quot;&gt;1.queueName作为datastore的NameKey，通过Put和get来操作队列&lt;/span&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;2.queueName作为redis的hashMap中的NameKey，通过Hset和Hget操作队列（目前只建立一张HashMap）&lt;/div&gt;&lt;div style=&quot;resize: none; outline: none; font-size: 13px; color: rgb(50, 50, 50); font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;3.一个OrgID对应一个环境，这里的环境是Onprem中docker运行环境&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-116" y="1220" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z0Rlydu4usAbJfZPVuNz-22" value="&lt;b&gt;关于worker&lt;/b&gt;&lt;br&gt;1）worker容器要是运行时间超过300s则停止并删除" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1800" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
