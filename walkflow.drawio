@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:38:00.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.68" etag="OYb2JnW0XANT81M8GxWV" version="20.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-13T07:30:26.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.68" etag="ccAbWC4bLg_KRd32VFfQ" version="20.6.2" type="github" pages="2">
   <diagram id="2dntFaKOUKjyEubpullR" name="workflow">
     <mxGraphModel dx="1944" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,8 +134,8 @@
         <mxCell id="UNwvUrRTClfuCjHRbkDN-9" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;SKIPPED&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
           <mxGeometry x="547" y="1690" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UNwvUrRTClfuCjHRbkDN-10" value="1）worker容器要是运行时间超过300s则停止并删除" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1740" width="290" height="90" as="geometry" />
+        <mxCell id="UNwvUrRTClfuCjHRbkDN-10" value="1）worker容器要是运行时间超过300s则停止并删除&lt;br&gt;2）中止条件：&lt;br&gt;2.1 用户手动中止&lt;br&gt;2.2 满足设置的条件&lt;br&gt;3）失败条件：&lt;br&gt;满足设置的条件&lt;br&gt;4）成功条件：&lt;br&gt;满足设置的条件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1655" width="330" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
